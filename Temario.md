@@ -54,20 +54,61 @@
 ---
 
 ## Clase 03
-### Función `input()`
-- Sintaxis
+- Función `input()`
 - Casting
-### Sentencias de control
+- Ejercicios:
+    - Promedio de calificaciones
+    - De Celsius a Fahrenheit
+    - IMC
+### Sentencias de Control
 #### Sentencias condicionales
 - `if`
 - `if`-`else`
 - `if`-`elif`-`else`
-### Método `format()`
-### `f-strings`
-- Formateo de números
-    - Precisión de decimales
+- Ejercicios:
+    - Mayoría de edad
+    - Máquina de helados
+### Formateo de `str`
+- Método `format()`
+- `f-strings`
+    - Presición de decimales
     - Separador de miles
     - Números consecutivos
-### Miscelánea de ejercicios
-- Función `len()`
-- Operador `in`
+- Ejercicios:
+    - De Fahrenheit a Celsius
+    - Millones de Pesos
+    - Mayoría de Edad
+    - Verificador de Contraseña
+        - Función `len()`
+        - Operador `in`
+
+---
+
+## Clase 04
+### Listas
+- Indexación
+    - Acceder al último elemento
+    - Slicing
+- Mutabilidad
+    - Modificar
+    - Casting entre `str` y `list`
+    - Agregar elementos
+        - Método `append()`
+        - Sumar listas
+        - Método `extend()`
+        - Método `insert()`
+    - Eliminar elementos
+        - Método `pop()`
+        - Método `clear()`
+- Almacenamiento de datos
+- Funciones de agregación
+    - `sum()`
+    - `max()`
+    - `min()`
+- Función `range()`
+### Tuplas
+- Creación de tuplas
+- Principales usos
+- Métodos
+    - `count()`
+    - `index()`
