@@ -20,7 +20,7 @@ import os
 #%%
 # PATHS y DIRECTORIOS
 
-# os.setwd()
+# os.chdir()
 
 # os.path.join()
 
