@@ -1,0 +1,8 @@
+Sublime Text 3 (versión 4 disponible)
+- Descarga:
+	https://www.sublimetext.com/download
+- Configuración:
+	https://www.programaenpython.com/miscelanea/configurar-sublime-text-para-programar-en-python/
+
+Base de datos:
+https://www.cnsf.gob.mx/EntidadesSupervisadas/InstitucionesSociedadesMutualistas/Paginas/informacionfinanciera.aspx
