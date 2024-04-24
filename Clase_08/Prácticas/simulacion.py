@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #%%
 # 2. Definimos parámetros
-n = 10_000
+n = 100_000
 simulaciones = []
 exitos = 0
 aproximaciones = []

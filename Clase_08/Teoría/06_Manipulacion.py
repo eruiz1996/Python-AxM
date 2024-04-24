@@ -21,6 +21,8 @@ df = pd.read_csv(read_path, sep=',', encoding='utf-8')
 #%%
 # leer cabeza
 print(df.head())
+# la cola
+print(df.tail())
 print(df.head(10))
 #%%
 # nombres de columnas

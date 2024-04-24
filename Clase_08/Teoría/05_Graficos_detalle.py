@@ -19,26 +19,26 @@ os.chdir(working_directory)
 # Módulos propios
 from referencias import lenguajes, sueldos
 
-plt.bar(lenguajes, sueldos)
+#plt.bar(lenguajes, sueldos)
 #------------------------------------------------------------------------
 # 3. Añadiendo colores
-#plt.bar(lenguajes, sueldos, color='#229954')
+plt.bar(lenguajes, sueldos, color='#229954')
 #------------------------------------------------------------------------
 
 #------------------------------------------------------------------------
 # 4. Añadiendo otro gráfico
-#plt.plot(lenguajes, sueldos, color='#B03A2E', 
-#	linewidth=2, linestyle='--', marker='o')
+plt.plot(lenguajes, sueldos, color='#B03A2E', 
+	linewidth=2, linestyle='--', marker='o')
 #------------------------------------------------------------------------
 
 #------------------------------------------------------------------------
 # 1. Título
-#plt.title('Lenguajes mejor pagados', fontsize=20)
+plt.title('Lenguajes mejor pagados', fontsize=20)
 #------------------------------------------------------------------------
 
 #------------------------------------------------------------------------
 # 2. Etiquetas para los ejes
-#plt.xlabel('Lenguajes', fontsize=16)
-#plt.ylabel('Miles de dólares', fontsize=16)
+plt.xlabel('Lenguajes', fontsize=16)
+plt.ylabel('Miles de dólares', fontsize=16)
 #------------------------------------------------------------------------
 plt.show()

@@ -16,22 +16,40 @@ Documentación Oficial:
 """
 #%% 
 import os
-
+#%%
+print('Hola Mundo')
+#%%
+print('Adiós Mundo')
+for i in range(5):
+    print(i)
+#%%
+# working directory
+working_dir = r'C:\Users\ed_22\Documents\Python-AxM\Clase_08\Teoría'
 #%%
 # PATHS y DIRECTORIOS
 
-# os.chdir()
-
-# os.path.join()
-
-# os.listdir()
+os.chdir(working_dir)
+#%%
+documentos = os.listdir()
+#%%
+otro_path = os.listdir(r'C:\Users\ed_22\Documents\Python-AxM\Clase_08\Prácticas')
+#%%
+archivo = 'ejemplo.xlsx'
+ruta_archivo = os.path.join(working_dir, archivo)
+print(ruta_archivo)
 #%%
 import random
-
-# random.random()
-
-# random.choice(lista)
-
-# random.randint(a, b)
+#%%
+random.seed(12)
+print(random.random())
+#%%
+random.seed(12000)
+numeros = list(range(10, 21))
+print(random.choice(numeros))
+#%%
+a, b = 2, 8
+print(random.randint(a, b))
 #%%
 from math import pi, e, sqrt
+#%%
+print(sqrt(100))
