@@ -112,3 +112,124 @@
 - Métodos
     - `count()`
     - `index()`
+
+---
+
+## Clase 05
+### Sentencias de control (*continuación*)
+#### Ciclos
+- Ciclo `for`
+    - Función *enumerate()*
+    - Función *zip()*
+    - Incrementos
+    - Ejercicio de vectores
+- Métodos de los `str`
+- Ciclo `while`
+### Funciones
+- Sin parámetros
+    - Sin valor de retorno
+    - Con valor de retorno
+    - Con múltiples valores de retorno
+- Con parámetros
+    - Múltiples parámetros
+    - Parámetros por defecto
+    - Ejercicios
+        - Operadores de Identidad
+- Funciones recursivas
+- Funciones con parámetros indeterminados
+
+---
+
+## Clase 06
+- Funciones anónimas (`lambda`)
+    - Un parámetro
+    - Dos parámetros
+    - Aplicando otras funciones
+### Buit-in Python
+- Diccionarios
+    - Acceder
+    - Modificar
+    - Agregar
+    - Métodos `keys()` y `values()`
+    - Iterar sobre un diccionario
+        - `items()`
+    - Diccionarios vacíos
+- Conjuntos
+    - Conjuntos vacíos
+    - A partir de un iterable
+    - Métodos `union()` e `intersection()`
+### Manejo de Excepciones
+- Estructura `try`-`except`
+- Manejo específico
+- Estructura `try`-`except`-`else`-`finally`
+### Listas por comprensión
+- Con `if`
+- Con `if`-`else`
+### Paradigmas de la Programación
+- Programación imperativa
+- Programación descriptiva
+    - Funcional
+    - Reactiva
+- Programación Orientada a Objetos
+
+---
+
+# Unidad 3. Programación Orientada a Objetos
+## Clase 07 
+### Abstracción
+- Clases
+- Instancias
+- Definiendo una clase
+- La instanciación
+- Definiendo atributos
+#### Dunder methods
+- Método constructor (`__init__`)
+    - Parámetro `self`
+- Método `__str__`
+### Métodos propios
+### Ejercicios
+- Clase `Car`
+- Clase `Alumno`
+- Clase `Celular`
+### Herencia
+- Clase Padre
+- Clase Hijo
+- Modificando atributos de la clase Padre
+### Encapsulamiento
+### Polimorfismo
+### Modularización
+- Importar módulos
+- Importa funciones y objetos
+
+---
+
+## Clase 08
+### Teoría
+- Interactuando con *Spyder*
+- Módulo `numpy`
+    - Arreglos
+        - Slicing
+        - Filtrado
+    - Matrices
+        - Atributo `shape`
+        - Slicing
+        - Trasponer (atributo `T`)
+        - Matrices especiales
+            - Identidad
+            - De Ceros
+            - De Unos
+        - Multiplicación de matrices
+    - Vectorización
+- Módulos `random`
+    - Números pseudo-aleatorios
+    - Método `seed()`
+    - Método `choice()`
+    - `random()` en `numpy`
+- Módulos propios
+- Módulo `matplotlib`
+    - Visualizando gráficos
+- Módulo `pandas`
+    - Ejercicio Práctico
+### Práctica
+- Conjetura de Collatz
+- Ejercicio de simulación
